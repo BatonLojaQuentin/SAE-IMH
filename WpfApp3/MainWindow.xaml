@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
 
-    </Grid>
+		<TextBlock Text="Puissance 4" 
+                   FontSize="32" 
+                   FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" Height="43" Width="172"/>
+		<Button Content="Jouer" 
+                Grid.Row="1" 
+                Width="150" 
+                Height="50" 
+                FontSize="20" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"/>
+
+	</Grid>
 </Window>
