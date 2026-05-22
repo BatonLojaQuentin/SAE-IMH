@@ -21,5 +21,10 @@ namespace WpfApp3
         {
             InitializeComponent();
         }
-    }
+
+        private void BtnValider_Click(object sender, RoutedEventArgs e)
+        {
+
+		}
+	}
 }
