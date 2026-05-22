@@ -11,10 +11,19 @@
 			<RowDefinition Height="55*"/>
 			<RowDefinition Height="162*"/>
 		</Grid.RowDefinitions>
-		<TextBlock Text="Paramètre" 
+		<TextBlock Text="Paramètres" 
            FontSize="32" 
            FontWeight="Bold" 
            HorizontalAlignment="Center" 
-           VerticalAlignment="Center" Height="43" Width="172"/>
+           VerticalAlignment="Center" Height="40" Width="170"/>
+		
+		<StackPanel Grid.Column="0" Grid.RowSpan="2" Background="#F0F0F0" VerticalAlignment="Center">
+
+			<TextBlock Text="Options :" FontSize="16" FontWeight="Bold" Margin="15,15,15,10"/>
+
+			<RadioButton Content="Proposition A" GroupName="MesOptions" FontSize="14" Margin="15,5,15,5" IsChecked="True"/>
+			<RadioButton Content="Proposition B" GroupName="MesOptions" FontSize="14" Margin="15,5,15,15"/>
+
+		</StackPanel>
 	</Grid>
 </Window>

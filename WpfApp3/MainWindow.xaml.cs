@@ -20,11 +20,12 @@ namespace WpfApp3
         {
             InitializeComponent();
         }
-
+       
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Window1 PageParamètre = new Window1();
             PageParamètre.Show();
+            Close();
 		}
 	}
 }
