@@ -13,23 +13,13 @@ using System.Windows.Shapes;
 namespace WpfApp3
 {
     /// <summary>
-    /// Logique d'interaction pour Window1.xaml
+    /// Logique d'interaction pour Window2.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window2 : Window
     {
-        public Window1()
+        public Window2()
         {
             InitializeComponent();
-        }
-
-        private void BtnValider_Click(object sender, RoutedEventArgs e)
-        {
-
-		}
-
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
