@@ -24,7 +24,7 @@ namespace WpfApp3
 
         private void BtnValider_Click(object sender, RoutedEventArgs e)
         {
-            Window1 pageparamètrer = new Window1();
+            pageparamètre pageparamètrer = new pageparamètre();
             pageparamètrer.Show();
             Close();
         }
