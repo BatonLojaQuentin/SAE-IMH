@@ -24,8 +24,10 @@ namespace WpfApp3
 
         private void BtnValider_Click(object sender, RoutedEventArgs e)
         {
-
-		}
+            Window1 pageparamètrer = new Window1();
+            pageparamètrer.Show();
+            Close();
+        }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
