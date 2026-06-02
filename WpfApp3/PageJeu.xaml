@@ -1,0 +1,97 @@
+﻿<Window x:Class="WpfApp3.PageJeu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="PageJeu" Height="500" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.ColumnSpan="2" VerticalAlignment="Center" FontFamily="Yu Gothic">Tour: Joueur 1</TextBlock>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="2" VerticalAlignment="Center" FontFamily="Yu Gothic" HorizontalAlignment="Center">Joueur 1</TextBlock>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="4" VerticalAlignment="Center" FontFamily="Yu Gothic" HorizontalAlignment="Center">Joueur IA</TextBlock>
+
+        <TextBlock Grid.ColumnSpan="2" Grid.Row="1" VerticalAlignment="Top" FontFamily="Yu Gothic" Margin="1,0,0,0">Temps restant: </TextBlock>
+        <Rectangle Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Stroke="Black" Width="75" Height="25" Margin="4,11,0,0" Grid.ColumnSpan="2"></Rectangle>
+        
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="0" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="1" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="2" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="3" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="4" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="5" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="4" Grid.Column="6" />
+
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="0" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="1" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="2" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="3" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="4" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="5" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="5" Grid.Column="6" />
+
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="0" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="1" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="2" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="3" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="4" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="5" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="6" Grid.Column="6" />
+
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="0" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="1" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="2" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="3" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="4" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="5" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="7" Grid.Column="6" />
+
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="0" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="1" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="2" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="3" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="4" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="5" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="8" Grid.Column="6" />
+
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="0" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="1" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="2" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="3" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="4" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="5" />
+        <Ellipse Width="50" Height="50" Stroke="Black" StrokeThickness="4" Grid.Row="9" Grid.Column="6" />
+
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2"/>
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1"/>
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2"/>
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3"/>
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="4"/>
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="5"/>
+        <Path Data="M 0,0 L 0,10 L -5,10 L 5,20 L 15,10 L 10,10 L 10,0 Z" Fill="Black" Stretch="Uniform" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="6"/>
+
+    </Grid>
+</Window>

@@ -17,7 +17,7 @@ namespace WpfApp3
     {
         public ChoixAdversaireWindow()
         {
-            InitializeComponent();
+            InitializedComponent();
 
             // MAGIE : La fenêtre lit la police du cerveau. 
             // Tous les textes à l'intérieur vont s'adapter d'un coup !
